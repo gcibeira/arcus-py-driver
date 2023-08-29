@@ -46,7 +46,7 @@ The Arcus Py Driver offers seamless USB communication with the motor driver, ena
 
 ## Author
 
-Gerardo D. Cibeira - 2023
+Copyright (c) 2023 Gerardo D. Cibeira
 
 ## Version History
 
