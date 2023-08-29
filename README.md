@@ -8,7 +8,7 @@ The Arcus Py Driver offers seamless USB communication with the motor driver, ena
 
 ### Features
 
-- **PerformaxUSB**: A native USB driver developed using the PyUSB library. This component was meticulously crafted through reverse engineering, leveraging USBPcap and Wireshark for insights. Relevant captures are provided within this repository.
+- **PerformaxUSB**: A native USB driver developed using the PyUSB library. This component was meticulously crafted through reverse engineering, leveraging USBPcap and Wireshark to sniff and analyze USB packets for insights. Relevant captures are provided within this repository.
 
 - **PerformaxDll**: A wrapper for the manufacturer-provided DLLs, accessible on the official website. Leveraging ctypes, this component interfaces with the DLLs, albeit with exclusive compatibility for Windows systems.
 
