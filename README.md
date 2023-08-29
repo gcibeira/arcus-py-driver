@@ -4,7 +4,7 @@ Arcus Py Driver is a Python USB driver designed to facilitate communication with
 
 ## Overview
 
-The Arcus Py Driver offers seamless USB communication with the motor driver, enabling the transmission of ASCII commands for precise motor control. A comprehensive list of available commands can be found in the [motor manual] (https://www.arcus-technology.com/support/downloads/download-info/dmx-j-sa-17-manual/)
+The Arcus Py Driver offers seamless USB communication with the motor driver, enabling the transmission of ASCII commands for precise motor control. A comprehensive list of available commands can be found in the [motor manual](https://www.arcus-technology.com/support/downloads/download-info/dmx-j-sa-17-manual/)
 
 ### Features
 
