@@ -25,10 +25,12 @@ performax_dll.fnPerformaxComSendRecv.argtypes = [ctypes.c_ulonglong, ctypes.c_vo
 performax_dll.fnPerformaxComFlush.restype = ctypes.c_bool
 performax_dll.fnPerformaxComFlush.argtypes = [ctypes.c_ulonglong]
 
-class DMXJSAModule:
+class PerformaxDevice:
     def __init__(self, device_number=0):
         self.device_number = device_number
         self.handle = None
+        self.open()
+        self.flush()
         
     def open(self):
         handle = ctypes.c_ulonglong()
